@@ -27,8 +27,8 @@ short_bio: >-
     My previous research primarily focused on out-of-distribution (OoD) generalization problems in traditional computer vision tasks, such as object detection. 
   </p>
   <p>
-    Currently, my research focuses on generative world models and embodied AI. My research interests include:
-    Feel free to reach out to discuss potential collaboration.
+    Currently, my research focuses on <strong>generative world models</strong> and <strong>embodied AI</strong>.
+    Feel free to reach out to discuss potential collaboration !
   </p>
 
 portrait_url: /assets/images/photos/wufan_cc.jpg
@@ -52,6 +52,16 @@ education:
   logo: /assets/images/badges/SYSU.png
   position: B.S. student
   date: Sep. 2017 - Jun. 2021
+
+experience:
+- name: Tencent
+  logo: /assets/images/badges/Tencent.png  # Logo is optional
+  position: Research Intern
+  date: Jul. 2025 - Nov. 2025
+- name: XPENG Robotics
+  logo: /assets/images/badges/XPENG.png  # Logo is optional
+  position: Research Intern
+  date: Dec. 2025 - Present
 
 # awards:
 # - name: Award Name 2
