@@ -61,7 +61,13 @@ experience:
 - name: XPENG Robotics
   logo: /assets/images/badges/XPENG.png  # Logo is optional
   position: Research Intern
-  date: Dec. 2025 - Present
+  date: Nov. 2025 - Present
+
+services:
+- name: Reviewer
+  position: >-
+    Conference: ICML, NeurIPS, AAAI, IJCAI, CVPR, ICCV <br/>
+    Journal: TCSVT, TMC
 
 # awards:
 # - name: Award Name 2

@@ -1,7 +1,7 @@
 ---
 title:          "AGNet: Automatic generation network for skin imaging reports"
 date:           2022-01-15 00:01:00 +0800
-selected:       false
+selected:       true
 abbr:           Journal
 pub:            "Computers in Biology and Medicine"
 pub_date:       "2022"
