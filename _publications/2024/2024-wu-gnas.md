@@ -4,6 +4,7 @@ date:           2024-02-07 00:01:00 +0800
 selected:       true
 abbr:           AAAI
 pub:            "The 38th Annual AAAI Conference on Artificial Intelligence"
+display_type:   Conference
 pub_date:       "2024"
 semantic_scholar_id: ee55a0fb99b64e3cec9b735bfab09c9e32562b0b
 abstract:

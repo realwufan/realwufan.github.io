@@ -4,6 +4,7 @@ date:           2022-01-15 00:01:00 +0800
 selected:       true
 abbr:           Journal
 pub:            "Computers in Biology and Medicine"
+display_type:   Journal
 pub_date:       "2022"
 semantic_scholar_id: e974f2fe33ca021b6a6721b582ae234e76eadaa4
 abstract:

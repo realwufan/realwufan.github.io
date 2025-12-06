@@ -4,6 +4,7 @@ date:           2023-05-01 00:01:00 +0800
 selected:       false
 abbr:           ICLR
 pub:            "ICLR DG Workshop"
+display_type:   Conference
 pub_date:       "2023"
 abstract:
 authors:

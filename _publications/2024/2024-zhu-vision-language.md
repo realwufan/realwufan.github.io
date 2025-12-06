@@ -4,6 +4,7 @@ date:           2024-03-18 00:01:00 +0800
 selected:       false
 abbr:           IJCV
 pub:            "International Journal of Computer Vision"
+display_type:   Journal
 pub_date:       "2024"
 semantic_scholar_id: 470b328573d2556fefb923ad06045bc71ebbe87a
 abstract:
