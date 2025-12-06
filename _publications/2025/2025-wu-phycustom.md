@@ -4,6 +4,7 @@ date:           2025-12-01 00:01:00 +0800
 selected:       false
 pub:            "arXiv preprint arXiv:2512.02794"
 pub_date:       "2025"
+semantic_scholar_id: f1cb363bc956589ddd6b1cf2c0dd0e37c11326bc
 abstract:
 authors:
   - Fan Wu
@@ -14,6 +15,6 @@ authors:
   - Deheng Ye
   - Guosheng Lin#
 links:
-  Paper: https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=3Hv-nfYAAAAJ&citation_for_view=3Hv-nfYAAAAJ:roLk4NBRz8UC
+  Paper: https://arxiv.org/pdf/2512.02794
 ---
 

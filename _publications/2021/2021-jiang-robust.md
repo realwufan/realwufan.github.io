@@ -5,6 +5,7 @@ selected:       false
 abbr:           KBS
 pub:            "Knowledge-Based Systems"
 pub_date:       "2021"
+semantic_scholar_id: c1a8bbf9e108c3c22d58d994ec2cb8afab5e8491
 abstract:
 authors:
   - Shancheng Jiang

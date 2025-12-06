@@ -5,6 +5,7 @@ selected:       false
 abbr:           IJCV
 pub:            "International Journal of Computer Vision"
 pub_date:       "2024"
+semantic_scholar_id: 470b328573d2556fefb923ad06045bc71ebbe87a
 abstract:
 authors:
   - Lin Zhu

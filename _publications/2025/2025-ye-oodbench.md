@@ -5,6 +5,7 @@ selected:       true
 abbr:           T-PAMI
 pub:            "IEEE Transaction on Pattern Analysis and Machine Intelligence"
 pub_date:       "2025"
+semantic_scholar_id: a92c09a8bcc530d76353a408cd1070c1e521d966
 abstract:
 authors:
   - Nanyang Ye*#

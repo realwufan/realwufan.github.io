@@ -17,23 +17,23 @@ github: wufan-cse
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
-orcid: 0000-0001-5064-7062
+# orcid: 0000-0001-5064-7062
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a PhD student at Nanyang Technological University, Singapore, under the supervision of Prof. Guosheng Lin.
-    I received my M.S. degree from the School of Electronic Information and Electrical Engineering at Shanghai Jiao Tong University, China, where I was advised by Prof. Nanyang Ye. 
+    I am a PhD student at Nanyang Technological University, Singapore, under the supervision of Prof. <a href="https://guosheng.github.io/" target="_blank">Guosheng Lin</a> .
+    I received my M.S. degree from the School of Electronic Information and Electrical Engineering at Shanghai Jiao Tong University, China, where I was advised by Prof. <a href="https://nanyangye.github.io/" target="_blank">Nanyang Ye</a>. 
     My previous research primarily focused on out-of-distribution (OoD) generalization problems in traditional computer vision tasks, such as object detection. 
-    Currently, my research focuses on generative world models and embodied AI.
   </p>
   <p>
+    Currently, my research focuses on generative world models and embodied AI. My research interests include:
     Feel free to reach out to discuss potential collaboration.
   </p>
 
 portrait_url: /assets/images/photos/wufan_cc.jpg
 portrait_caption: >-
-  Photo by CC in Phuket, Thailand.
+  Photo by BB in Phuket, Thailand.
 
 education:
 - name: Nanyang Technological University
