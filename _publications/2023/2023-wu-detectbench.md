@@ -3,7 +3,6 @@ title:          "DetectBench: an object detection benchmark for OOD generalizati
 date:           2023-09-29 00:01:00 +0800
 selected:       false
 pub:            "arXiv preprint"
-display_type:   arXiv
 pub_date:       "2023"
 abstract: 
 authors:

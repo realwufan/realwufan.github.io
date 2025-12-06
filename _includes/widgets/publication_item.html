@@ -5,36 +5,7 @@
             {%- if item.cover -%}
             <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
             {%- else -%}
-            <!-- <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg> -->
-            {%- assign pub_lower = item.display_type | downcase -%}
-            {%- if pub_lower = 'arxiv' -%}
-                <div class="w-100 rounded-sm d-flex align-items-center justify-content-center" style="height: 200px; background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);">
-                    <div class="text-center text-white p-3">
-                        <i class="fas fa-file-alt fa-3x mb-2"></i>
-                        <div class="font-weight-bold">arXiv</div>
-                    </div>
-                </div>
-            {%- else if pub_lower = 'journal' -%}
-                <div class="w-100 rounded-sm d-flex align-items-center justify-content-center" style="height: 200px; background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);">
-                    <div class="text-center text-white p-3">
-                        <i class="fas fa-book fa-3x mb-2"></i>
-                        <div class="font-weight-bold">Journal</div>
-                        {%- if item.abbr -%}
-                        <div class="small mt-1">{{ item.abbr }}</div>
-                        {%- endif -%}
-                    </div>
-                </div>
-            {%- else -%}
-                <div class="w-100 rounded-sm d-flex align-items-center justify-content-center" style="height: 200px; background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);">
-                    <div class="text-center text-white p-3">
-                        <i class="fas fa-users fa-3x mb-2"></i>
-                        <div class="font-weight-bold">Conference</div>
-                        {%- if item.abbr -%}
-                        <div class="small mt-1">{{ item.abbr }}</div>
-                        {%- endif -%}
-                    </div>
-                </div>
-            {%- endif -%}
+            <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
