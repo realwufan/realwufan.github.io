@@ -1,0 +1,109 @@
+@article{wu2025ic,
+    title={IC-World: In-Context Generation for Shared World Modeling},
+    author={Wu, Fan and Wei, Jiacheng and Li, Ruibo and Xu, Yi and Li, Junyou and Ye, Deheng and Lin, Guosheng},
+    journal={arXiv preprint arXiv:2512.02793},
+    year={2025},
+    selected={true},
+    bibtex_show={true},
+    code={https://github.com/wufan-cse/IC-World},
+}
+
+@article{wu2025phycustom,
+  title={PhyCustom: Towards Realistic Physical Customization in Text-to-Image Generation},
+  author={Wu, Fan and Chen, Cheng and Fu, Zhoujie and Wei, Jiacheng and Xu, Yi and Ye, Deheng and Lin, Guosheng},
+  journal={arXiv preprint arXiv:2512.02794},
+  year={2025}
+}
+
+@inproceedings{ye2025ood,
+    abbr={T-PAMI},
+    title={OoDBench+: Quantifying and Understanding Two Dimensions of Out-of-Distribution Generalization.},
+    author={Ye*, Nanyang and Li*, Kaican and Wu*, Fan and Zhou, Jundong and Bai, Haoyue and Yu, Runpeng and Hong, Lanqing and Zhou, Fengwei and Li, Zhenguo and Zhu, Jun and Wang, Xinbing and Zhou, Chenghu},
+    booktitle={IEEE Transaction on Pattern Analysis and Machine Intelligence},
+    year={2025},
+    dimensions={true},
+    bibtex_show={true},
+    selected={true},
+}
+
+@inproceedings{zhu2025bayes,
+    abbr={IJCV},
+    title={Bayes-CAL: Robust Cross-Modal Alignment by Bayesian Approach for Few-Shot OoD Generalization.},
+    author={Zhu, Lin and Yin, Weihan and Wu, Fan and Gu, Qinying and Wang, Xinbing and Zhou, Chenghu and Ye, Nanyang},
+    booktitle={International Journal of Computer Vision},
+    year={2025},
+    dimensions={true},
+    bibtex_show={true},
+}
+
+@inproceedings{zhu2024vision,
+    abbr={IJCV},
+    title={Vision-Language Alignment Learning Under Affinity and Divergence Principles for Few-Shot Out-of-Distribution Generalization},
+    author={Zhu, Lin and Yin, Weihan and Yang, Yiyao and Wu, Fan and Zeng, Zhaoyu and Gu, Qinying and Wang, Xinbing and Zhou, Chenghu and Ye, Nanyang},
+    booktitle={International Journal of Computer Vision},
+    year={2024},
+    code={https://github.com/LinLLLL/VLAD},
+    dimensions={true},
+    google_scholar_id={Tyk-4Ss8FVUC},
+    bibtex_show={true},
+}
+
+@inproceedings{wu2023gnas,
+    abbr={AAAI},
+    title={G-NAS: Generalizable Neural Architecture Search for Single Domain Generalization Object Detection},
+    abstract={In this paper, we focus on a realistic yet challenging task, Single Domain Generalization Object Detection (S-DGOD), where only one source domain's data can be used for training object detectors, but have to generalize multiple distinct target domains. In S-DGOD, both high-capacity fitting and generalization abilities are needed due to the task's complexity. Differentiable Neural Architecture Search (NAS) is known for its high capacity for complex data fitting and we propose to leverage Differentiable NAS to solve S-DGOD. However, it may confront severe over-fitting issues due to the feature imbalance phenomenon, where parameters optimized by gradient descent are biased to learn from the easy-to-learn features, which are usually non-causal and spuriously correlated to ground truth labels, such as the features of background in object detection data. Consequently, this leads to serious performance degradation, especially in generalizing to unseen target domains with huge domain gaps between the source domain and target domains. To address this issue, we propose the Generalizable loss (G-loss), which is an OoD-aware objective, preventing NAS from over-fitting by using gradient descent to optimize parameters not only on a subset of easy-to-learn features but also the remaining predictive features for generalization, and the overall framework is named G-NAS. Experimental results on the S-DGOD urban-scene datasets demonstrate that the proposed G-NAS achieves SOTA performance compared to baseline methods.},
+    author={Wu, Fan and Gao, Jinling and Lanqing, HONG and Wang, Xinbing and Zhou, Chenghu and Ye, Nanyang},
+    booktitle={The 38th Annual AAAI Conference on Artificial Intelligence},
+    year={2023},
+    selected={true},
+    bibtex_show={true},
+    code={https://github.com/wufan-cse/G-NAS},
+    pdf={gnas.pdf},
+}
+
+@article{wu2023detectbench,
+  title={DetectBench: an object detection benchmark for OOD generalization algorithms},
+  author={Wu, Fan and Ye, Nanyang and Peng, Chensheng and Pan, Bikang and Lyu, Huaihai and Shi, Heyuan and others},
+  year={2023}
+}
+
+@inproceedings{wu2023object,
+    abbr={ICLR},
+    title={Object Detection with OOD Generalizable Neural Architecture Search},
+    abstract={To improve the Out-of-Distribution (OOD) Generalization on Object Detection, we present a Neural Architecture Search (NAS) framework guided by feature orthogonalization. We believe that the failure to generalize on OOD data is due to the spurious correlations of category-related features and context-related features. The category-related features describe the causal information for predicting the target objects, such as "a car with four wheels'', while the context-related features describe the non-causal information, such as "a car driving at night''. However, due to the distinct data distribution between training and testing sets, the context-related features are often mistaken for causal information. To address this, we aim to automatically discover an optimal architecture that can disentangle the category-related features and the context-related features with a novel weight-based detector head. Both theoretical and experimental results show that the proposed scheme can achieve disentanglement and better performance on both IID and OOD.},
+    author={Wu, Fan and Li, Kaican and Gao, Jinling and Peng, Chensheng and Lanqing, HONG and Xie, Enze and Li, Zhenguo and Ye, Nanyang},
+    booktitle={ICLR Domain Generalization Workshop},
+    year={2023},
+    pdf={wu2023object.pdf},
+    bibtex_show={true},
+    html={https://openreview.net/forum?id=rF6bZD9uYC}
+}
+
+@article{wu2022agnet,
+    abbr={Journal},
+    title={AGNet: Automatic generation network for skin imaging reports},
+    abstract={Medical imaging has been increasingly adopted in the process of medical diagnosis, especially for skin diseases, where diagnoses based on skin pathology are extremely accurate. The diagnostic reports of skin pathology images has the distinguishing features of extreme repetitiveness and rigid formatting. However, reports written by inexperienced radiologists and pathologists can have a high error rate, and even experienced clinicians can find the reporting task both tedious and time-consuming. To address this challenge, this paper studies the automatic generation of diagnostic reports based on images of skin pathologies. A novel deep learning-based image caption framework named the automatic generation network (AGNet), which is an effective network for the automatic generation of skin imaging reports, is proposed. The proposed AGNet consists of four parts: (1) the image model that extracts features and classifies images; (2) the language model that codes data and generates words using comprehensible language; (3) the attention module that connects the “tail” of the image model and the “head” of the language model, and computes the relationship between images and captions; (4) the embedding and labeling module that processes the input caption data. In case study, The AGNet is verified on a skin pathological image dataset and compared with several state-of-the-art models. The results show that the AGNet achieves the highest scores of the evaluation metrics of image caption among all comparison models, demonstrating the promising performance of the proposed method.},
+    author={Wu, Fan and Yang, Haiqiong and Peng, Linlin and Lian, Zongkai and Li, Mingxin and Qu, Gang and Jiang, Shancheng and Han, Yu},
+    journal={Computers in Biology and Medicine},
+    volume={141},
+    pages={105037},
+    year={2022},
+    publisher={Elsevier},
+    bibtex_show={true},
+    html={https://www.sciencedirect.com/science/article/abs/pii/S0010482521008313}
+}
+
+@article{jiang2021robust,
+    abbr={KBS},
+    title={A robust end-to-end deep learning framework for detecting Martian landforms with arbitrary orientations},
+    abstract={With increasingly massive amounts of high-resolution images of Mars, automated detection of geological landforms on Mars has received widespread interest. It is significant for acquiring knowledge of distant planetary surfaces and processes, or manifold onboard applications such as spacecraft motion estimation and obstacle avoidance. This is a challenging task, not only because of the multiple sizes of targets and complex image backgrounds, but also the various orientations of some bar-shaped landforms in satellite images captured from the top view. The existing methods for directed landform detection require several pre or post-processing operations to extract possible regions of interest and final detection results with orientation, which are very time consuming. In this paper, a new end-to-end deep learning framework is developed for detecting arbitrarily-directed landforms. This framework, named Rotated-SSD (Single Shot MultiBox Detector, SSD), can locate and identify different landforms on Mars in one pass, by using rotatable anchor-box based mechanism. To enhance its robustness against angle variation of the targets and complex backgrounds, a new efficient match strategy is proposed for anchoring default boxes to ground truth boxes in the model training process and an autoencoder-based unsupervised pre-training operation is introduced to improve both the model training and inference performance. The proposed framework is tested for detection of bar-shaped buttes and dark slope streaks on satellite images. The detection results show that our framework can significantly contribute to onboard motion estimation systems. The comparative results demonstrate that the proposed match strategy outperforms other state-of-the-art match strategies with regard to model training efficiency and prediction accuracy. The pre-training strategy can facilitate the training of deep architectures in case of limited available training data.},
+    author={Jiang, Shancheng and Wu, Fan and Yung, Kai-Leung and Yang, Yingqiao and Ip, WH and Gao, Ming and Foster, James Abbott},
+    journal={Knowledge-Based Systems},
+    volume={234},
+    pages={107562},
+    year={2021},
+    publisher={Elsevier},
+    selected={false},
+    bibtex_show={true},
+    html={https://www.sciencedirect.com/science/article/abs/pii/S0950705121008248}
+}

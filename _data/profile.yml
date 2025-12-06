@@ -1,61 +1,62 @@
-primary_name: "Your Name"
+primary_name: "Fan Wu"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Fan Wu"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Ph.D. candidate
+- name: Nanyang Technological University
+  logo: /assets/images/badges/NTU.png  # Logo is optional
 
 
-email: "your@email.com"
+email: "fan011@e.ntu.edu.sg"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: 3Hv-nfYAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: wufan-cse
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+orcid: 0000-0001-5064-7062
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a PhD student at Nanyang Technological University, Singapore, under the supervision of Prof. Guosheng Lin.
+    I received my M.S. degree from the School of Electronic Information and Electrical Engineering at Shanghai Jiao Tong University, China, where I was advised by Prof. Nanyang Ye. 
+    My previous research primarily focused on out-of-distribution (OoD) generalization problems in traditional computer vision tasks, such as object detection. 
+    Currently, my research focuses on generative world models and embodied AI.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Feel free to reach out to discuss potential collaboration.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/wufan_cc.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo by CC in Phuket, Thailand.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Nanyang Technological University
+  logo: /assets/images/badges/NTU.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
+    College of Computing and Data Science <br/>
     Ph.D. Student
   date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Shanghai Jiao Tong University
+  logo: /assets/images/badges/SJTU.png
+  position: >-
+    Department of Computer Science and Engineering <br/>
+    M.S. in Computer Science
+  date: Sep. 2021 - Mar. 2024
+- name: Sun Yat-sen University
+  logo: /assets/images/badges/SYSU.png
+  position: B.S. student
+  date: Sep. 2017 - Jun. 2021
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
-
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
