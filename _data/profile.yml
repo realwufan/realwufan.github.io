@@ -58,10 +58,6 @@ experience:
   logo: /assets/images/badges/Tencent.png  # Logo is optional
   position: Research Intern
   date: Jul. 2025 - Nov. 2025
-- name: XPENG Robotics
-  logo: /assets/images/badges/XPENG.png  # Logo is optional
-  position: Research Intern
-  date: Nov. 2025 - Present
 
 services:
 - name: Reviewer
